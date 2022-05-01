@@ -24,16 +24,16 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.aopalliance</groupId>
             <artifactId>com.springsource.org.aopalliance</artifactId>
             <version>1.0.0</version>
+        </dependency>-->
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>aopalliance</groupId>-->
-            <!--<artifactId>aopalliance</artifactId>-->
-            <!--<version>1.0</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
